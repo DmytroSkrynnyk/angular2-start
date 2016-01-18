@@ -1,10 +1,20 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
+# Node Files #
+/node_modules
+/bower_components
 
-# IntelliJ project files
+
+# IDE #
+.idea/
+*.swp
 .idea
 *.iml
-out
-/node_modules
-gen
+
+# OS generated files #
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Logs
+logs
+*.log
