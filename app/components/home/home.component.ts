@@ -1,8 +1,8 @@
 import {Component} from 'angular2/core';
 
 Component({
-    template: `
-    <h2>Home</h2>
-    <p>Get your Home component here</p>`
+    templateUrl: 'app/components/home/home.component.html',
+    styleUrls: ['app/components/home/home.component.css']
 })
+
 export class HomeComponent { }
