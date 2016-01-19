@@ -1,5 +1,6 @@
 import {Component}                      from 'angular2/core';
 import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
+
 import {GreeterComponent}               from './components/greeter/greeter.component';
 import {HomeComponent}                  from './components/home/home.component';
 
