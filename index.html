@@ -10,25 +10,26 @@
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="node_modules/es6-shim/es6-shim.js"></script>
 
+    <!-- Add the router library -->
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+
     <!-- 2. Configure SystemJS -->
     <script>
         System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true },
+            packages: {'app': {defaultExtension: 'ts'}}
         });
         System.import('app/boot')
                 .then(null, console.error.bind(console));
     </script>
+</head>
 
 </head>
 
 <!-- 3. Display the application -->
 <body>
-    <app>Loading...</app>
+    <my-app>Loading...</my-app>
 </body>
 
 </html>
